@@ -1,0 +1,71 @@
+.container {
+    width: 80%;
+    margin: 0 auto;
+    border-style: outset;
+     border-style: solid;
+     border-width: medium;
+}
+
+dt { 
+  border-left: 5px solid blue;
+   padding-left: 15px;
+}
+/* Simple Navigation Styles */
+.nav {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.nav a {
+    text-decoration: none;
+    margin: 0 10px;
+    font-weight: bold;
+    color: #333;
+}
+
+.nav a:hover {
+    color: #007bff;
+}
+
+hr {
+    margin: 20px 0;
+}
+
+/* 2-column Layout using Flexbox */
+.row {
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+}
+
+.column {
+    flex: 1;
+    padding: 20px;
+}
+
+/* Profile Image Styling */
+.profile-img {
+    width: 100%;
+    max-width: 200px;
+    border-radius: 50%;
+    margin-bottom: 15px;
+}
+
+/* Form Styling */
+form input[type="text"],
+form input[type="email"],
+form input[type="submit"] {
+    width: 50%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+/* Footer Styles */
+footer {
+    text-align: center;
+    font-weight: bold;
+    padding: 20px 0;
+    background-color: #f4f4f4;
+}

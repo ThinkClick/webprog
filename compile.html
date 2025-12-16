@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Web Programming Compilation</title>
+  <link rel="stylesheet" href="css/LeeCSS.css">
+</head>
+<body>
+ 
+<div class="navbar">
+  <h2>
+    <a href="#" onclick="loadLab('paz_lab1.html')">Lab 1</a> |
+    <a href="#" onclick="loadLab('paz_lab2.html')">Lab 2</a> |
+    <a href="#" onclick="loadLab('paz_lab3.html')">Lab 3</a>
+  </h2>
+</div>
+ 
+<hr>
+ 
+<!-- DISPLAY AREA -->
+<div class="iframe-container">
+  <iframe
+    id="labFrame"
+    src="paz_lab3.html"
+    width="100%"
+    height="700"
+    style="border:1px solid #ddd; border-radius:6px;">
+  </iframe>
+</div>
+ 
+<script>
+function loadLab(labFile) {
+  document.getElementById("labFrame").src = labFile;
+}
+</script>
+ 
+</body>
+</html>
